@@ -1,0 +1,25 @@
+body{
+    background-color: darkgray;
+}
+
+.contenedores{
+    position: relative;
+    display: inline-block;
+    text-align: center;   
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: chartreuse;
+}
+
+.centrado{
+    position: absolute;
+    top: 65%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    color: rgb(85, 0, 241);
+}
+
